@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face
+{
+	font-family: 'Open_Sans_Regular';
+	src: url(./OpenSans-Regular.ttf);
+}
+
 body
 {
     background-color: #dedede;
@@ -12,14 +19,14 @@ body
     margin-top: 70px;
     text-align: center;
     color: black;
-    font-family: Open Sans;
+    font-family: 'Open_Sans_Regular';
 }
 .corpo
 {
     margin-top: 70px;
     text-align: center;
     color: black;
-    font-family: Open Sans;
+    font-family: 'Open_Sans_Regular';
 }
 .bt
 {
@@ -27,7 +34,7 @@ body
     border-radius: 4px;
     display: inline-block;
     cursor: pointer;
-    font-family: Open Sans;
+    font-family: 'Open_Sans_Regular';
     font-weight: bold;
     font-size: 13px;
     padding: 6px 10px;
@@ -57,7 +64,7 @@ body
     background-color: #2f9e41;
     line-height: 25px;
     font-size: 15px;
-    font-family: Open Sans;
+    font-family: Open_Sans_Regular;
     position: fixed;
     bottom: 0px;
     width: 100%;
