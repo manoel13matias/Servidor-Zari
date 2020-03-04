@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+@font-face
+{
+	font-family: 'Open_Sans_Regular';
+	src: url(./OpenSans-Regular.ttf);
+}
+
 body
 {
     background-color: #dedede;
@@ -12,14 +19,14 @@ body
     margin-top: 70px;
     text-align: center;
     color: black;
-    font-family: OpenSans;
+    font-family: 'Open_Sans_Regular';
 }
 .corpo
 {
     margin-top: 70px;
     text-align: center;
     color: black;
-    font-family: OpenSans;
+    font-family: 'Open_Sans_Regular';
 }
 .bt
 {
@@ -27,7 +34,7 @@ body
     border-radius: 4px;
     display: inline-block;
     cursor: pointer;
-    font-family: Verdana;
+    font-family: 'Open_Sans_Regular';
     font-weight: bold;
     font-size: 13px;
     padding: 6px 10px;
@@ -36,14 +43,14 @@ body
 .bt-vd
 {
     border-color: #68b465;
-    background: linear-gradient(to bottom, #abd5aa 5%, #68b465 100%);
+    background: linear-gradient(to bottom, #68b465 5%, #abd5aa 100%);
     box-shadow: inset 0px 1px 0px 0px #e3f1e3;
     color: #fff;
     text-shadow: 0px 1px 0px #528009;
 }
 .bt-vd:hover
 {
-    background: linear-gradient(to bottom, #68b465 5%, #abd5aa 100%);
+    background: linear-gradient(to bottom, #2f9e41 5%, #abd5aa 100%);
 }
 .bt:active
 {
@@ -54,10 +61,10 @@ body
 {
     text-align: center;
     color: white;
-    background-color: #2e8b57;
+    background-color: #2f9e41;
     line-height: 25px;
     font-size: 15px;
-    font-family: OpenSans;
+    font-family: Open_Sans_Regular;
     position: fixed;
     bottom: 0px;
     width: 100%;
